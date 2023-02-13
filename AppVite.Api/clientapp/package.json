@@ -1,0 +1,21 @@
+{
+  "name": "vite-configuration",
+  "private": true,
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "watch": "vite build --watch --mode development"
+  },
+  "dependencies": {
+    "axios": "^0.26.1",
+    "bootstrap": "^5.1.3",
+    "vue": "^3.2.25",
+    "vue-router": "^4.0.14"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^2.2.0",
+    "vite": "^2.8.0",
+    "vue-tsc": "0.32.1"
+  }
+}
